@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Reset de CSS */
-* {
+/* Reset de CSS*/
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,55 +9,142 @@
     list-style: none;
 }
 
-/* Fuentes de texto */
-.poppins-thin { font-family: "Poppins", sans-serif; font-weight: 100; font-style: normal; }
-.poppins-extralight { font-family: "Poppins", sans-serif; font-weight: 200; font-style: normal; }
-.poppins-light { font-family: "Poppins", sans-serif; font-weight: 300; font-style: normal; }
-.poppins-regular { font-family: "Poppins", sans-serif; font-weight: 400; font-style: normal; }
-.poppins-medium { font-family: "Poppins", sans-serif; font-weight: 500; font-style: normal; }
-.poppins-semibold { font-family: "Poppins", sans-serif; font-weight: 600; font-style: normal; }
-.poppins-bold { font-family: "Poppins", sans-serif; font-weight: 700; font-style: normal; }
-.poppins-extrabold { font-family: "Poppins", sans-serif; font-weight: 800; font-style: normal; }
-.poppins-black { font-family: "Poppins", sans-serif; font-weight: 900; font-style: normal; }
-.poppins-thin-italic { font-family: "Poppins", sans-serif; font-weight: 100; font-style: italic; }
-.poppins-extralight-italic { font-family: "Poppins", sans-serif; font-weight: 200; font-style: italic; }
-.poppins-light-italic { font-family: "Poppins", sans-serif; font-weight: 300; font-style: italic; }
-.poppins-regular-italic { font-family: "Poppins", sans-serif; font-weight: 400; font-style: italic; }
-.poppins-medium-italic { font-family: "Poppins", sans-serif; font-weight: 500; font-style: italic; }
-.poppins-semibold-italic { font-family: "Poppins", sans-serif; font-weight: 600; font-style: italic; }
-.poppins-bold-italic { font-family: "Poppins", sans-serif; font-weight: 700; font-style: italic; }
-.poppins-extrabold-italic { font-family: "Poppins", sans-serif; font-weight: 800; font-style: italic; }
-.poppins-black-italic { font-family: "Poppins", sans-serif; font-weight: 900; font-style: italic; }
+/*Fuentes de texto*/
 
-.visually-hidden {
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+} 
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+  
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+  
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+  
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+  
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+  
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+  
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+  
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+  
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.visually—hidden{
     position: absolute !important;
     height: 1px;
     width: 1px;
     overflow: hidden;
-    clip: rect(1px, 1px, 1px, 1px);
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
     white-space: nowrap;
 }
 
-/* Espaciado del main */
-main {
+/* Espaciado del main*/
+main{
     padding: 50px;
 }
 
-/* Selección de fuente para el body */
-body {
+/*Seleccion de fuente para el body*/
+body{
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
-.header {
+.header{
     background-color: #222;
     background-size: cover;
     min-height: 10vh;
@@ -65,8 +152,9 @@ body {
     align-items: center;
 }
 
-/* Menú de la barra de navegación */
-.menu {
+/*Menu de la barra de navegacion*/
+
+.menu{
     position: absolute;
     top: 0;
     left: 0;
@@ -76,106 +164,219 @@ body {
     justify-content: space-between;
 }
 
-.menu .navbar ul li {
+.menu .navbar ul li{
     position: relative;
     float: left;
 }
 
-.menu .navbar ul li a {
+.menu .navbar ul li a{
     font-size: 18px;
     padding: 20px;
     color: #ccc;
     display: block;
     font-weight: 600;
-    transition: color 0.3s ease;
 }
 
-.menu .navbar ul li a:hover {
+.menu .navbar ul li a:hover{
     color: #ff8e28;
 }
 
 .navbar a.active {
-    font-weight: bold;
-    border-bottom: 2px solid #ff8e28;
-    background: linear-gradient(#1c1c1c, #080808);
+    font-weight: bold; 
+    border-bottom: 2px solid #ff8e28; 
+    background:linear-gradient(#1c1c1c,#080808) ;
 }
 
-#menu {
+/*Pagina principal(index)*/
+
+#menu{
     display: none;
 }
 
-.menu label {
+.menu label{
     cursor: pointer;
     display: none;
 }
 
-.menu h1 {
+.menu h1{
     padding-top: 5px;
 }
 
-.btn_1 {
+.btn_1{
     display: inline-block;
     padding: 11px 35px;
-    color: #000;
+    color: #000000;
     text-transform: uppercase;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
 }
 
-.btn_1:hover {
-    background-color: #ff8e28;
-    color: #fff;
+.btn_1:hover{
+    background-color: #FF8E28;
+    color: #ffffff;
 }
 
-/* Ajustar las rutas para imágenes en las secciones de Nintendo, PlayStation, y Xbox */
-.nintendo_group, .playstation_group, .xbox_group {
+.nintendo_group{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.nintendo_1 img, .playstation_1 img, .xbox_1 img {
+.nintendo_1 img{
     width: 200px;
 }
 
-/* Cambiar colores de fondo para diferentes secciones */
-.nintendo {
+.nintendo{
+    padding: 100px 0;
     background-color: #ed8a91b5;
+    position: relative;
 }
 
-.playstation {
-    background-color: #736fe6b5;
+.nintendo_img{
+    display: block;
+    margin: auto;
+    padding: 10px 0px;
 }
 
-.xbox {
-    background-color: #52ff64b5;
+.nintendo_content{
+    text-align: center;
 }
 
-.nintendo_content h2, .playstation_content h2, .xbox_content h2 {
-    font-size: 50px;
+.nintendo_content h2{
+    font-size: 55px;
     line-height: 70px;
     color: #323337;
     text-transform: uppercase;
+    padding: 0px 250px;
     margin-bottom: 15px;
-    padding: 0 250px;
 }
 
-.txt_p {
+.txt_p{
     font-size: 16px;
     color: #414247;
+    padding: 0px 250px;
     margin-bottom: 35px;
-    padding: 0 250px;
 }
 
-.nintendo_1 h3, .playstation_1 h3, .xbox_1 h3 {
+.nintendo_1{
+    padding: 0px 25px;
+}
+
+.nintendo_1 h3{
     color: #323337;
     font-size: 20px;
     margin-bottom: 15px;
 }
 
-/* Galería con ajuste de ruta para imágenes */
+.playstation_group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.playstation_1 img{
+    width: 200px;
+}
+
+.playstation{
+    padding: 100px 0;
+    background-color: #736fe6b5;
+    position: relative;
+}
+
+.playstation_img{
+    display: block;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.playstation_content{
+    text-align: center;
+}
+
+.playstation_content h2{
+    font-size: 50px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0px 250px;
+    margin-bottom: 15px;
+}
+
+.txt_p{
+    font-size: 16px;
+    color: #414247;
+    padding: 0px 250px;
+    margin-bottom: 35px;
+}
+
+.playstation_1{
+    padding: 0px 25px;
+}
+
+.playstation_1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.xbox_group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.xbox_1 img{
+    width: 200px;
+}
+
+.xbox{
+    padding: 100px 0;
+    background-color: #52ff64b5;
+    position: relative;
+}
+
+.xbox_img{
+    display: block;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.xbox_content{
+    text-align: center;
+}
+
+.xbox_content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0px 250px;
+    margin-bottom: 15px;
+}
+
+.txt_p{
+    font-size: 16px;
+    color: #414247;
+    padding: 0px 250px;
+    margin-bottom: 35px;
+}
+
+.xbox_1{
+    padding: 0px 25px;
+}
+
+.xbox_1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/*Pagina de productos*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -185,21 +386,22 @@ body {
 
 .galeria-juegos {
     background-color: #1f1f1f;
-    color: #fff;
+    color: #ffffff;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
 }
 
 main h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family:'Poppins', sans-serif; ;
     font-size: 30px;
-    color: #ff8e28;
+    color: #FF8E28;
     margin-bottom: 20px;
-    text-align: center;
+    margin-left: 550px;
 }
 
-/* Página del presupuesto */
+/*Pagina del presupuesto*/
+/* Estilo general del formulario */
 .solicitud-forma {
     max-width: 600px;
     margin: 0 auto;
@@ -209,10 +411,12 @@ main h2 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Contenedor de cada grupo de campos del formulario */
 .forma-grupo {
     margin-bottom: 20px;
 }
 
+/* Etiquetas de los campos del formulario */
 .solicitud-forma label {
     display: block;
     font-size: 16px;
@@ -220,6 +424,7 @@ main h2 {
     margin-bottom: 8px;
 }
 
+/* Campos de texto y área de texto */
 .solicitud-forma input[type="text"],
 .solicitud-forma input[type="email"],
 .solicitud-forma input[type="tel"],
@@ -231,6 +436,7 @@ main h2 {
     border-radius: 4px;
 }
 
+/* Estilo para el botón de envío */
 .submit-btn {
     background-color: #ff8e28;
     color: #fff;
@@ -246,11 +452,13 @@ main h2 {
     background-color: #e07b1e;
 }
 
+/* Estilo para el checkbox */
 .solicitud-forma input[type="checkbox"] {
     margin-right: 10px;
 }
 
-/* Página de contacto */
+/*Pagina de contacto*/
+
 .mapa {
     display: block;
     width: 100%;
@@ -271,11 +479,12 @@ main h2 {
 }
 
 .contact-info a {
-    color: #ff8e28;
+    color: #ff8e28; 
     font-weight: bold;
 }
 
-/* Pie de página */
+/*Pie de pagina*/
+
 .footer {
     background-color: #222;
     color: #fff;
