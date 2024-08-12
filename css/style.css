@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Fuentes de texto */
+.poppins-thin { font-family: "Poppins", sans-serif; font-weight: 100; font-style: normal; }
+.poppins-extralight { font-family: "Poppins", sans-serif; font-weight: 200; font-style: normal; }
+.poppins-light { font-family: "Poppins", sans-serif; font-weight: 300; font-style: normal; }
+.poppins-regular { font-family: "Poppins", sans-serif; font-weight: 400; font-style: normal; }
+.poppins-medium { font-family: "Poppins", sans-serif; font-weight: 500; font-style: normal; }
+.poppins-semibold { font-family: "Poppins", sans-serif; font-weight: 600; font-style: normal; }
+.poppins-bold { font-family: "Poppins", sans-serif; font-weight: 700; font-style: normal; }
+.poppins-extrabold { font-family: "Poppins", sans-serif; font-weight: 800; font-style: normal; }
+.poppins-black { font-family: "Poppins", sans-serif; font-weight: 900; font-style: normal; }
+.poppins-thin-italic { font-family: "Poppins", sans-serif; font-weight: 100; font-style: italic; }
+.poppins-extralight-italic { font-family: "Poppins", sans-serif; font-weight: 200; font-style: italic; }
+.poppins-light-italic { font-family: "Poppins", sans-serif; font-weight: 300; font-style: italic; }
+.poppins-regular-italic { font-family: "Poppins", sans-serif; font-weight: 400; font-style: italic; }
+.poppins-medium-italic { font-family: "Poppins", sans-serif; font-weight: 500; font-style: italic; }
+.poppins-semibold-italic { font-family: "Poppins", sans-serif; font-weight: 600; font-style: italic; }
+.poppins-bold-italic { font-family: "Poppins", sans-serif; font-weight: 700; font-style: italic; }
+.poppins-extrabold-italic { font-family: "Poppins", sans-serif; font-weight: 800; font-style: italic; }
+.poppins-black-italic { font-family: "Poppins", sans-serif; font-weight: 900; font-style: italic; }
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
+
+/* Espaciado del main */
+main {
+    padding: 50px;
+}
+
+/* Selección de fuente para el body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #222;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Menú de la barra de navegación */
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ccc;
+    display: block;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.menu .navbar ul li a:hover {
+    color: #ff8e28;
+}
+
+.navbar a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #ff8e28;
+    background: linear-gradient(#1c1c1c, #080808);
+}
+
+#menu {
+    display: none;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.menu h1 {
+    padding-top: 5px;
+}
+
+.btn_1 {
+    display: inline-block;
+    padding: 11px 35px;
+    color: #000;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn_1:hover {
+    background-color: #ff8e28;
+    color: #fff;
+}
+
+/* Ajustar las rutas para imágenes en las secciones de Nintendo, PlayStation, y Xbox */
+.nintendo_group, .playstation_group, .xbox_group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.nintendo_1 img, .playstation_1 img, .xbox_1 img {
+    width: 200px;
+}
+
+/* Cambiar colores de fondo para diferentes secciones */
+.nintendo {
+    background-color: #ed8a91b5;
+}
+
+.playstation {
+    background-color: #736fe6b5;
+}
+
+.xbox {
+    background-color: #52ff64b5;
+}
+
+.nintendo_content h2, .playstation_content h2, .xbox_content h2 {
+    font-size: 50px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding: 0 250px;
+}
+
+.txt_p {
+    font-size: 16px;
+    color: #414247;
+    margin-bottom: 35px;
+    padding: 0 250px;
+}
+
+.nintendo_1 h3, .playstation_1 h3, .xbox_1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Galería con ajuste de ruta para imágenes */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.galeria-juegos {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+main h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #ff8e28;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Página del presupuesto */
+.solicitud-forma {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #050505;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.forma-grupo {
+    margin-bottom: 20px;
+}
+
+.solicitud-forma label {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.solicitud-forma input[type="text"],
+.solicitud-forma input[type="email"],
+.solicitud-forma input[type="tel"],
+.solicitud-forma textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background-color: #ff8e28;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #e07b1e;
+}
+
+.solicitud-forma input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Página de contacto */
+.mapa {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #ff8e28;
+    font-weight: bold;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    text-align: left;
+}
+
+.footer_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer_content .link {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+}
+
+.footer_content .link h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #f0f0f0;
+}
+
+.footer_content .link ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_content .link ul li {
+    margin-bottom: 10px;
+}
+
+.footer_content .link ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Cambiar color al pasar el raton */
+
+.footer_content .link ul li a:hover {
+    color: #f39c12; 
+}
